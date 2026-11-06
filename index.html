@@ -1,1 +1,74 @@
-<img src="letöltés.jfif" alt="BT T-Link Logo">
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT-TLink</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        img.logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p.subtitle {
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #334155;
+            transition: background 0.3s;
+            box-sizing: border-box;
+        }
+        .btn:hover {
+            background-color: #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- A te logód -->
+        <img src="letöltés.jfif" alt="BT T-Link Logo" class="logo">
+        
+        <h1>BT-TLink</h1>
+        <p class="subtitle">Üdvözlünk az oldalamon!</p>
+
+        <!-- Itt adhatod meg a gombokat és a linkeket -->
+        <a href="https://example.com" class="btn" target="_blank">Weboldalam</a>
+        <a href="mailto:pelda@email.com" class="btn">Írj nekem e-mailt</a>
+        <a href="https://instagram.com" class="btn" target="_blank">Instagram Profil</a>
+    </div>
+</body>
+</html>
